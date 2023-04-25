@@ -4,6 +4,26 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+# Ignore Maven build files
+*.jar
+*.war
+*.ear
+*.class
+
+# Ignore application properties and configuration files
+/src/main/resources/application*.yml
+/src/main/resources/application*.properties
+
+# Ignore generated files
+src/main/generated/*
+
+# Ignore logs directory
+logs/
+
+# Ignore files that contain private information
+/src/main/resources/application-private.yml
+/src/main/resources/credentials.txt
+
 ### STS ###
 .apt_generated
 .classpath
