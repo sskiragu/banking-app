@@ -150,3 +150,33 @@ This timeline is subject to change based on the complexity of the project and an
 repositories: A directory containing test classes for your repository classes.
 - utils: A directory containing test classes for your utility classes.
 - resources: A directory containing test-specific configuration files, such as application-test.yml or application-test.properties.
+## System Users
+- Customers: People who use the banking services, such as opening accounts, taking loans, and making transactions.
+
+- Admins: People who manage the banking application, such as adding and removing users, managing transactions, and generating reports.
+
+- Managers: People who manage a specific branch or department of the bank.
+
+- Employees: People who work for the bank, such as tellers, loan officers, and customer service representatives.
+## System Roles
+- Admin - Has full access and control over the system, including user management, account management, and transaction management.
+
+- Customer - A regular user who can view their own account information, make deposits and withdrawals, and initiate transactions.
+
+- Manager - A user with elevated privileges who can perform certain administrative tasks, such as approving loan applications and setting interest rates.
+
+- Teller - A user who is responsible for handling transactions, such as deposits and withdrawals, at a bank branch.
+
+- Analyst - A user who analyzes financial data to make decisions about investments, risk management, and other financial activities.
+
+- Auditor - A user who conducts internal audits to ensure compliance with regulations and policies.
+
+- Compliance Officer - A user who ensures that the bank is complying with all relevant laws and regulations.
+
+- IT Administrator - A user who manages the bank's technology infrastructure and ensures that it is secure and reliable.
+## Dependencies
+- Data JPA
+- Lombok
+- Dev Tools
+- Web
+- Validation
