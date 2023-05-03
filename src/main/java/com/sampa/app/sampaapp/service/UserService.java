@@ -1,5 +1,7 @@
 package com.sampa.app.sampaapp.service;
 
-public interface UserService {
+import com.sampa.app.sampaapp.model.User;
 
+public interface UserService {
+	public User createUser(User user);
 }
