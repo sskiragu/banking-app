@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.sampa.app.sampaapp.model.User;
 import com.sampa.app.sampaapp.service.UserService;
 
+import jakarta.validation.Valid;
+
 @RestController
 public class UserController {
 	
@@ -15,7 +17,7 @@ public class UserController {
 	private UserService userService;
 	
 	@PostMapping("/signup")
-	public User createUser(@RequestBody User user) {
+	public User createUser(@RequestBody @Valid User user) {
 		return userService.createUser(user);
 	}
 }
